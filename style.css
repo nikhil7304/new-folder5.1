@@ -1,0 +1,761 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1181370/pexels-photo-1181370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#hero h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+#hero h5 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#hero span {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+}
+.nik{
+    padding: 2rem;
+    margin-left: 1rem;
+}
+.right{
+    padding: 2rem;
+}
+.right h1 {
+    margin-top: 8rem;
+}
+
+.line {
+    width: 5rem;
+    background-color:black;
+    height: 0.1rem;
+}
+
+.left h1 {
+    margin-top: 4rem;
+}
+
+.left img {
+    height: 100vh;
+}
+
+.upper {
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 12rem;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.upper h1 {
+    margin-top: 5rem;
+}
+
+.upper .line {
+    width: 5rem;
+    height: 0.1rem;
+    background-color: white;
+    margin: 2rem;
+}
+
+.upper {
+    padding: 4rem;
+}
+
+.nright {
+    padding: 1rem;
+}
+
+.nright h1 {
+    margin-bottom: 4rem;
+}
+
+.nright p {
+    margin-top: 4rem;
+}
+
+.mright {
+    text-align: center;
+    padding: 3rem;
+}
+
+.mright .line {
+    margin: 3rem 0;
+}
+
+.form {
+    height: 80vh;
+    background-color: #45474c;
+    color: white;
+}
+
+.form h1 {
+    padding: 5rem;
+}
+
+input,
+textarea {
+    padding: 0.8rem 2rem;
+    margin: 0 0.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.pright {
+    padding: 8rem;
+    text-align: center;
+}
+
+.pright .line {
+    margin: 4rem 2rem 0;
+}
+
+/* .qright{
+padding: 1rem;
+} */
+.qright .line {
+    margin: 2rem 0;
+}
+
+.wright {
+    height: 60vh;
+    background-color: #444549;
+    color: white;
+    margin: 4rem 0;
+}
+
+.wright .line {
+    background-color: white;
+}
+
+.kright {
+    /* padding: 5rem; */
+}
+
+.kright p {
+    text-align: center;
+    margin: 2rem 15rem;
+}
+
+.fright {
+    padding: 4rem;
+    height: 40vh;
+    background-color: #35383c;
+    color: white;
+}
+
+footer {
+    height: 3rem;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color: #282b2e;
+    color: white;
+}
+
+#hero2 {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero2 h1 {
+    /* padding: 2rem; */
+/* margin-bottom: 2rem; */
+    text-align: center;
+    margin: rem;
+    color: #feffff;
+    font-weight: 500;
+}
+
+#hero2 .line {
+    background-color: white;
+}
+
+.pleft {
+    padding: 5rem;
+    margin: 0 20rem;
+    text-align: center;
+}
+
+.pleft .line {
+    margin-top: 2.5rem;
+    background-color: black;
+}
+
+.qleft {
+    padding: 5rem;
+}
+.qleft .line {
+    background-color: black;
+}
+
+.qleft h1 {
+    margin: 5rem 0;
+}
+
+.qleft .line,
+h5,
+p {
+    margin: 2rem 0;
+}
+
+.rleft {
+    padding: 5rem;
+}
+
+.rleft h1 {
+    margin: 5rem 0;
+}
+.rleft .line{
+    background-color: black;
+}
+
+.rleft .line,
+h5,
+p {
+    margin: 2rem 0;
+}
+
+.uleft {
+    height: 60vh;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.uleft h1 {
+    margin: 0 10rem;
+}
+
+.fleft {
+    padding: 5rem;
+    height: 50vh;
+    background-color: #35383c;
+    color: white;
+}
+
+#hero3 {
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: aqua;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero3 h1 {
+    margin-bottom: 1rem;
+}
+
+#hero3 p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 15rem;
+}
+
+#hero3 .line {
+    background-color: aqua;
+}
+
+#portfolio .card {
+    margin-top: 5rem;
+    width: 28rem;
+}
+
+.card img {
+    width: 100%;
+}
+
+.gwright {
+    margin-top: 5rem;
+    padding: 5rem;
+    height: 50vh;
+    background-color: #35383c;
+    color: white;
+}
+
+#hero4 {
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero4 h1 {
+    margin: 3rem 20rem;
+    text-align: center;
+}
+
+#hero4 p {
+    margin: 3rem 20rem;
+    text-align: center;
+}
+
+#hero4 .line {
+    background-color: white;
+}
+
+.awright {
+    /* height: 100vh; */
+    margin: 3rem 3rem;
+}
+
+video {
+    width: 100%;
+}
+
+.bwright {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.fwright {
+    padding: 2rem;
+}
+
+#hero5 {
+    height: 80vh;
+    background-color: #35383c;
+    color: white;
+}
+
+#hero5 h1{
+    margin: 0 19rem;
+    text-align: center;
+}
+
+#hero5 .line {
+    background-color: white;
+    margin: 2rem 0;
+}
+
+#pages {
+    margin-top: 5rem;
+}
+.vright {
+    margin-top: 2rem;
+    height: 40vh;
+    background-color: #35383c;
+    color: white;
+    padding: 3rem;
+}
+.fright {
+    margin-top: 5rem;
+    padding: 5rem;
+    height: 50vh;
+    background-color: #35383c;
+    color: white;
+}
+#hero6{
+height: 80vh;
+background-image: url("https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg");
+color: white;
+background-size: cover;
+background-position: center;
+}
+#hero6 h1{
+    margin: 0 20rem;
+}
+#hero6 p{
+    margin: 0 26rem;
+}
+#hero6 .line{
+    margin: 2rem 0;
+    background-color: white;
+}
+#shop{
+    padding: 2rem;
+}
+#shop .card{
+    width: 20rem;
+}
+.card img{
+    width: 100%;
+}
+.kleft{
+    padding: 5rem;
+}
+.kleft h1{
+    margin-bottom: 4rem;
+}
+.jleft{
+    padding: 4rem;
+}
+.dleft{
+    height: 50vh;
+    background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+
+}
+.dleft h1{
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#hero7{
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/5686014/pexels-photo-5686014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#hero7 h1{
+    padding: 5rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+#hero7 .line{
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+}
+#element h1{
+    margin-top: 4rem ;
+    
+}
+#element p{
+    /* margin: 2rem 20rem; */
+    text-align: center;
+}
+
+.swright{
+    height: 50vh;
+    background-color: #35383c;
+    color: white;
+    padding: 4rem;
+}
+.lwright h4{
+    margin-bottom: 2rem;
+}
+.vwright{
+    padding: 4rem;
+    height: 40vh;
+    background-color: #35383c;
+    color: white;
+    text-align: center;  
+}
+@media screen and (max-width:425px) {
+    #hero{
+        height: 100%;
+    }
+    #hero h1{
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    #hero h5 {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    .left{
+        text-align: center;
+    }
+     .left img{
+        height: 100%;
+     }
+     .mright .form{
+        /* height: 100%; */
+     }
+     .form h1{
+        padding: 2rem;
+     }
+     .pright{
+        padding: 2rem;
+     }
+     .pright h1{
+        font-size: 1.5rem;
+
+     }
+     .pright .line{
+        margin-top: 2rem;
+     }
+     .qright h1{
+        font-size: 1.5rem;
+     }
+     .wright p{
+        margin: 1rem 2rem;
+     }
+     .wright .line{
+        margin: 1rem 0;
+     }
+     .kright p{
+        margin: 1rem;
+     }
+     .kright .line{
+        margin: 1.2rem 0;
+     }
+     .fright , footer{
+        height: 100%;
+     }
+     #hero2{
+        height: 100%;
+     }
+     #hero2 h1{
+        padding: 2rem;
+        margin: 2rem;
+        font-size: 1.2rem;
+     }
+     .pleft{
+        padding: 1rem;
+        margin: 1rem;
+     }
+     .pleft .line{
+        margin-left: 1rem;
+     }
+     .qleft{
+        padding: 1rem;
+     }
+     .qleft h1{
+        margin: 2rem 0;
+     }
+     .rleft{
+        padding: 1rem;
+     }
+     .rleft h1{
+        margin: 3rem 0;
+     }
+     .uleft{
+        height: 100%;
+     }
+     .uleft h1{
+        margin: 2rem;
+     }
+     .fleft{
+        height: 100%;
+     }
+     #hero3{
+        height: 100%;
+     }
+     #hero3 h1{
+        text-align: center;
+        margin-top: 5rem;
+     }
+     #hero3 p {
+        margin: 1rem 1rem;
+        font-size: 1.3rem;
+     }
+     .gwright{
+        height: 100%;
+     }
+     #hero4{
+        height: 100%;
+     }
+     #hero4 h1{
+        margin: 6rem 2rem 1rem 1rem;
+        font-size: 1.5rem;
+     }
+     #hero4 p{
+        margin: 1rem;
+     }
+     .awright h1{
+        font-size: 1.5rem;
+        
+     }
+     .awright h6{
+        margin: 1rem;
+     }
+     .awright h4{
+        font-size: 1.4rem;
+     }
+     #hero5{
+        height: 100%;
+     }
+     #hero5 h1{
+        margin: 4rem 2rem 1rem 1rem;
+     }
+     #hero5 p{
+        margin: 1rem 3rem;
+     }
+     #pages{
+        margin-top: 3rem;
+     }
+     #pages p{
+        margin: 2rem 2rem;
+     }
+     .vright{
+        height: 100%;
+     }
+     .form2 h1{
+        font-size: 1.5rem;
+     }
+     .fright h5 p {
+        margin: 1rem 2rem;
+     }
+     #hero6{
+        height: 100%;
+     }
+     #hero6 h1{
+        margin: 4rem 2rem 1rem 1rem;
+        text-align: center;
+     }
+     #hero6 p{
+        margin: 1rem 3rem;
+     }
+     .kleft h1{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+     }
+     .dleft{
+        height: 100%;
+     }
+
+    #hero7{
+        height: 100%;
+    }
+    #hero7 h1{
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 4rem 1rem 1rem;
+    }
+    #hero7 .line{
+        margin-bottom: 1rem;
+    }
+    #element h1{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    #element p{
+        margin: 1rem ;
+    }
+    .swright{
+        height: 100%;
+    }
+    .lwright h1, h4 {
+        margin: 2rem 1rem 1rem;
+        text-align: center;
+    }
+    .vwright{
+        height: 100%;
+    }
+    .jleft h4{
+        margin: 0 1rem;
+    } 
+} 
+@media screen and (max-width:768px) {
+    .fright{
+        height: 100%;
+        padding: 2rem;
+    }
+    .nik{
+        padding: 1rem;
+    }
+    .pleft {
+        padding: 4rem;
+        margin: 0 1rem;
+    }
+    .pleft .line{
+        margin-top: 0.5rem;
+    }
+    .qleft{
+        padding: 1rem;
+        margin-left: 1.5rem;
+    }
+    .qleft .btn{
+        margin-right: 5rem;
+    }
+    .qleft p {
+        margin: 1rem 0;
+    }
+    .rleft{
+        padding: 1rem;
+    }
+    .fleft{
+        height: 100%;
+        padding: 2rem;
+    }
+    #hero3{
+        height: 100%;
+    }
+    #hero3 h1{
+        margin-top: 5rem;
+    }
+    #hero3 p{
+        margin: 6rem;
+    }
+    #hero3 .line{
+        margin-top: 2rem;
+    }
+    #portfolio .card{
+        margin-left: 10rem;
+    }
+    .gwright{
+        margin-top: 3rem;
+        height: 100%;
+        padding: 2rem;
+    }
+    #hero4 {
+        height: 100%;
+    }
+    #hero4 h1{
+        margin: 4rem 2rem;
+    }
+    #hero4 p{
+        margin: 5rem 2rem;
+    }
+    .bwright{
+        margin-top: 2rem;
+    }
+    #hero5{
+        height: 100%;
+    }
+    #hero5 h1{
+margin: 5rem 2rem 2rem;
+    }
+    #hero5 .line{
+        margin: 1rem 0;
+    }
+    #hero5 p{
+        margin: 3rem 4rem ;
+    }
+    #pages{
+        margin-top: 3rem;
+    }
+    #pages p{
+        margin: 2rem 3rem;
+    }
+    .fright{
+        margin-top: 1rem;
+    }
+    #hero6{
+        height: 100%;
+    }
+    #hero6 h1{
+        text-align: center;
+        margin: 5rem 2rem 2rem 3rem;
+    }
+    #hero6 p{
+        margin: 6rem;
+    }
+    .vwright{
+        height: 100%;
+        padding: 2rem;
+    }
+}
+
